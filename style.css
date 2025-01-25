@@ -12,6 +12,7 @@ body {
   margin: 0;
   overflow-y: hidden;
   background: radial-gradient(circle, blue, black);
+  background-repeat: no-repeat;
   color: white;
 }
 
