@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+  background: radial-gradient(circle, blue, black);
+  color: white;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: flex;
+  list-style: none;
+}
+
+nav ul {
+  margin-right: 20px;
+  color: white;
+}
+
+#fullpage-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:visited {
+  color: white;
+}
+
+nav li a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
